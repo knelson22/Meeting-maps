@@ -15,7 +15,7 @@ $username = "root";
 $password = "";
 $dbname = "new";
 
-
+ 
  $con = new mysqli($servername, $username, $password, $dbname);
  $day= $_GET['day'];;
 // $d = array('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday');
